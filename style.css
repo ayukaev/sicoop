@@ -53,4 +53,31 @@ footer {
     main {
         padding: 10px;
     }
+#contact-btn-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100; /* Ensure it stays above other content */
+}
+
+#contact-form-popup {
+    position: fixed;
+    right: 20px;
+    bottom: 60px; /* Adjust based on button size and desired spacing */
+    width: 300px; /* Adjust as needed */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 101; /* Above the button */
+    display: none; /* Hidden by default */
+}
+
+/* Show the form when it's not hidden */
+#contact-form-popup:not(.hidden) {
+    display: block;
+}
+
+/* Additional styling for form elements... */
+
+    
 }

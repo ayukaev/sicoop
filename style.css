@@ -43,3 +43,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 10px;
+    }
+}

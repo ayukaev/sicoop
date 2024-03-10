@@ -4,6 +4,7 @@ body, html {
     font-family: Arial, sans-serif;
     /* Complex Gradient Background */
     background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    filter: grayscale(100%);
 }
 
 
